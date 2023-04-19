@@ -26,7 +26,8 @@ public void testReversed2(){
 
 @Test
 public void testwithoutLowest(){
-  assertEquals(0, ArrayExamples.averageWithoutLowest({0}));
+  double[] input = {3.0, 3.0, 3.0, 3.0};
+  assertEquals(3.0, ArrayExamples.averageWithoutLowest(input),0.001);
 
 }
 
